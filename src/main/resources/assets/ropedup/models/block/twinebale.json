@@ -1,6 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "ropedup:block/twinebale"
+    "down": "ropedup:block/twinebaletop",
+    "up": "ropedup:block/twinebaletop",
+    "north": "ropedup:block/twinebaleside",
+    "east": "ropedup:block/twinebaleside",
+    "south": "ropedup:block/twinebaleside",
+    "west": "ropedup:block/twinebaleside",
+    "particle": "ropedup:block/twinebaleside"
   }
 }
