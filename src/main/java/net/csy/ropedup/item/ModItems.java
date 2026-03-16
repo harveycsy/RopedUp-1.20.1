@@ -14,22 +14,22 @@ public class ModItems {
 
     // adding new items
     public static final Item TWINE = registerItem("twine", new Item(new FabricItemSettings()));
-    public static final Item WEAKCARABINER = registerItem("weakcarabiner", new Item(new FabricItemSettings()));
-    public static final Item STRONGCARABINER = registerItem("strongcarabiner", new Item(new FabricItemSettings()));
+    public static final Item ROPESEGMENT = registerItem("ropesegment", new Item(new FabricItemSettings()));
+    public static final Item CARABINER = registerItem("carabiner", new Item(new FabricItemSettings()));
     public static final Item DECORROPE = registerItem("decorrope", new Item(new FabricItemSettings()));
-    public static final Item BARINGROPE = registerItem("baringrope", new Item(new FabricItemSettings()));
+    public static final Item DECOREXTENDROPE = registerItem("decorextendrope", new Item(new FabricItemSettings()));
     public static final Item ROPEEXTENSION = registerItem("ropeextension", new Item(new FabricItemSettings()));
 
     // add items to existing item groups
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(TWINE);
+        entries.add(ROPESEGMENT);
     }
     private static void addItemsToToolsItemGroup(FabricItemGroupEntries entries) {
-        entries.add(WEAKCARABINER);
-        entries.add(STRONGCARABINER);
         entries.add(DECORROPE);
-        entries.add(BARINGROPE);
+        entries.add(CARABINER);
         entries.add(ROPEEXTENSION);
+        entries.add(DECOREXTENDROPE);
     }
 
 

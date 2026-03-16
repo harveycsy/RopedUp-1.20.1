@@ -14,17 +14,17 @@ public class ModItemGroups {
     public static final ItemGroup ROPED_UP_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(RopedUp.MOD_ID, "ropedup"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ropedup"))
-                    .icon(() -> new ItemStack(ModItems.WEAKCARABINER)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.CARABINER)).entries((displayContext, entries) -> {
                         // non-placeable items
                         entries.add(ModItems.TWINE);
-                        entries.add(ModItems.WEAKCARABINER);
-                        entries.add(ModItems.STRONGCARABINER);
+                        entries.add(ModItems.ROPESEGMENT);
+                        entries.add(ModItems.CARABINER);
                         entries.add(ModItems.DECORROPE);
-                        entries.add(ModItems.BARINGROPE);
                         entries.add(ModItems.ROPEEXTENSION);
-
+                        entries.add(ModItems.DECOREXTENDROPE);
                         // placeable items
                         entries.add(ModBlocks.ROPECLIP);
+                        entries.add(ModBlocks.BARINGROPE);
                         entries.add(ModBlocks.TWINEBALE);
 
                     }).build());

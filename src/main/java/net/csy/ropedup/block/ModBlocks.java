@@ -21,12 +21,16 @@ public class ModBlocks {
     public static final Block ROPECLIP = registerBlock("ropeclip",
             new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE).sounds(BlockSoundGroup.METAL)));
 
+    public static final Block BARINGROPE = registerBlock("baringrope",
+            new Block(FabricBlockSettings.copyOf(Blocks.SCAFFOLDING).sounds(BlockSoundGroup.SCAFFOLDING)));
+
     public static final Block TWINEBALE = registerBlock("twinebale",
             new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.GRASS)));
 
     // add blocks to existing item groups
     private static void addItemsToFunctionItemGroup(FabricItemGroupEntries entries) {
         entries.add(ROPECLIP);
+        entries.add(BARINGROPE);
     }
     private static void addItemsToNaturalItemGroup(FabricItemGroupEntries entries) {
         entries.add(TWINEBALE);
