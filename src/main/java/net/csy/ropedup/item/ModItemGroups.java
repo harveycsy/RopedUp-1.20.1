@@ -18,9 +18,9 @@ public class ModItemGroups {
                         // non-placeable items
                         entries.add(ModItems.TWINE);
                         entries.add(ModItems.ROPESEGMENT);
+                        entries.add(ModItems.ROPEEXTENSION);
                         entries.add(ModItems.CARABINER);
                         entries.add(ModItems.DECORROPE);
-                        entries.add(ModItems.ROPEEXTENSION);
                         entries.add(ModItems.DECOREXTENDROPE);
                         // placeable items
                         entries.add(ModBlocks.ROPECLIP);
