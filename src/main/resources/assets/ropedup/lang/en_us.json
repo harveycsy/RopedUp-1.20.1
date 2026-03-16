@@ -1,0 +1,13 @@
+{
+  "item.ropedup.twine": "Twine",
+  "item.ropedup.weakcarabiner": "Weak Carabiner",
+  "item.ropedup.strongcarabiner": "Strong Carabiner",
+  "item.ropedup.decorrope": "Decor Rope",
+  "item.ropedup.baringrope": "Baring Rope",
+  "item.ropedup.ropeextension": "Rope Extension",
+
+  "block.ropedup.ropeclip": "Rope Clip",
+  "block.ropedup.twinebale": "Twine Bale",
+
+  "itemgroup.ropedup": "Roped Up"
+}
