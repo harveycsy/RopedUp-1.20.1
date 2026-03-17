@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "r  ",
+    "nrn",
+    "  r"
+  ],
+  "key": {
+    "r": {
+      "item": "ropedup:ropesegment"
+    },
+    "n": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "ropedup:ropeextension"
+  }
+}

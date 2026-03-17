@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "oho",
+    " c "
+  ],
+  "key": {
+    "o": {
+      "item": "minecraft:iron_ingot"
+    },
+    "h": {
+      "item": "minecraft:chain"
+    },
+    "c": {
+      "item": "ropedup:carabiner"
+    }
+  },
+  "result": {
+    "item": "ropedup:ropeclip"
+  }
+}

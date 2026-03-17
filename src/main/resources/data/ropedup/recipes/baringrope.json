@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "r  ",
+    "coc",
+    "  r"
+  ],
+  "key": {
+    "o": {
+      "item": "minecraft:iron_ingot"
+    },
+    "r": {
+      "item": "ropedup:ropesegment"
+    },
+    "c": {
+      "item": "ropedup:carabiner"
+    }
+  },
+  "result": {
+    "count": 2,
+    "item": "ropedup:baringrope"
+  }
+}

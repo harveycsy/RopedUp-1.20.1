@@ -26,9 +26,9 @@ public class ModItems {
         entries.add(ROPESEGMENT);
     }
     private static void addItemsToToolsItemGroup(FabricItemGroupEntries entries) {
-        entries.add(DECORROPE);
         entries.add(CARABINER);
         entries.add(ROPEEXTENSION);
+        entries.add(DECORROPE);
         entries.add(DECOREXTENDROPE);
     }
 

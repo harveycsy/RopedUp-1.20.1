@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "t",
+    "t"
+  ],
+  "key": {
+    "t": {
+      "item": "ropedup:twine"
+    }
+  },
+  "result": {
+    "item": "ropedup:ropesegment"
+  }
+}

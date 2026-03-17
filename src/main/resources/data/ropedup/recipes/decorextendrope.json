@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "e ",
+    " c"
+  ],
+  "key": {
+    "e": {
+      "item": "ropedup:ropeextension"
+    },
+    "c": {
+      "item": "ropedup:decorrope"
+    }
+  },
+  "result": {
+    "item": "ropedup:decorextendrope"
+  }
+}

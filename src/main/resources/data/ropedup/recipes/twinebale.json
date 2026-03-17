@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "ttt",
+    "ttt",
+    "ttt"
+  ],
+  "key": {
+    "t": {
+      "item": "ropedup:twine"
+    }
+  },
+  "result": {
+    "item": "ropedup:twinebale"
+  }
+}
